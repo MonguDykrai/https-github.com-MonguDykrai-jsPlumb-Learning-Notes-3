@@ -1,0 +1,109 @@
+{
+  "nodes": [
+    {
+      "blockId": "decision314116",
+      "nodeType": "decision",
+      "positionX": 852,
+      "positionY": 145
+    },
+    {
+      "blockId": "decision315612",
+      "nodeType": "decision",
+      "positionX": 1214,
+      "positionY": 183
+    },
+    {
+      "blockId": "decision317782",
+      "nodeType": "decision",
+      "positionX": 854,
+      "positionY": 315
+    },
+    {
+      "blockId": "task567862",
+      "nodeType": "task",
+      "positionX": 1500,
+      "positionY": 197
+    },
+    {
+      "blockId": "decision246455",
+      "nodeType": "decision",
+      "positionX": 488,
+      "positionY": 222
+    },
+    {
+      "blockId": "task250036",
+      "nodeType": "task",
+      "positionX": 403,
+      "positionY": 110
+    },
+    {
+      "blockId": "decision253533",
+      "nodeType": "decision",
+      "positionX": 429,
+      "positionY": 408
+    },
+    {
+      "blockId": "decision256821",
+      "nodeType": "decision",
+      "positionX": 301,
+      "positionY": 322
+    },
+    {
+      "blockId": "decision260422",
+      "nodeType": "decision",
+      "positionX": 55,
+      "positionY": 334
+    }
+  ],
+  "connections": [
+    {
+      "uuids": [
+        "decision314116rm-out",
+        "decision315612ll-in"
+      ]
+    },
+    {
+      "uuids": [
+        "decision315612rm-out",
+        "task567862lm-in"
+      ]
+    },
+    {
+      "uuids": [
+        "decision317782rm-out",
+        "decision315612lr-in"
+      ]
+    },
+    {
+      "uuids": [
+        "decision246455rm-out",
+        "decision314116lr-in"
+      ]
+    },
+    {
+      "uuids": [
+        "task250036rm-out",
+        "decision314116ll-in"
+      ]
+    },
+    {
+      "uuids": [
+        "decision253533rm-out",
+        "decision317782lr-in"
+      ]
+    },
+    {
+      "uuids": [
+        "decision256821rm-out",
+        "decision317782ll-in"
+      ]
+    },
+    {
+      "uuids": [
+        "decision260422rm-out",
+        "decision256821ll-in"
+      ]
+    }
+  ],
+  "numberOfElements": 9
+}
